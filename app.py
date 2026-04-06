@@ -268,6 +268,12 @@ st.set_page_config(
 # ── 글로벌 CSS ──
 st.markdown("""
 <style>
+  /* Streamlit UI 요소 숨기기 */
+  #MainMenu { visibility: hidden; }
+  header[data-testid="stHeader"] { display: none; }
+  footer { visibility: hidden; }
+  .stDeployButton { display: none; }
+
   /* 배경 */
   .stApp { background-color: #0d1117; }
   section[data-testid="stSidebar"] { background-color: #161b22; }
