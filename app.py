@@ -259,7 +259,7 @@ def build_chart(df, obs, fvgs, swing_highs, swing_lows, trade_setups, ticker):
 # ─────────────────────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="ICT Analyzer",
+    page_title="주식 분석기",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="collapsed",
