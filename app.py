@@ -434,8 +434,8 @@ st.markdown("""
 # ── 헤더 ──
 st.markdown("""
 <div class="ict-header">
-  <h1>📈 ICT ANALYZER</h1>
-  <p>Order Block · Fair Value Gap · Liquidity · Trade Setup</p>
+  <h1>📈 주식 분석기</h1>
+  <p>매입가 · 손절가 · 목표가 자동 분석</p>
 </div>
 """, unsafe_allow_html=True)
 
